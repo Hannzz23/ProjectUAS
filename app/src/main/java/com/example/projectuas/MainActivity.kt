@@ -7,7 +7,6 @@ import android.content.Intent
 import android.view.View
 
 
-
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var persegiButton: Button
     private lateinit var persegipanjangButton: Button
