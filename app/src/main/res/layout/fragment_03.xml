@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment03">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/jariJari"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/jari_jari"
+            android:inputType="number"
+            android:outlineProvider="background"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <TextView
+            android:id="@+id/hasillingkaran"
+            android:layout_width="144dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/hasil" />
+
+        <Button
+            android:id="@+id/cvButton"
+            android:layout_width="325dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+
+            android:text="Convert"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="371dp"
+            android:layout_height="158dp"
+            app:srcCompat="@drawable/lingkaran" />
+
+    </LinearLayout>
+
+</FrameLayout>

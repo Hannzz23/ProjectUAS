@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectUAS</string>
+    <string name="persegi">Persegi</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="area_converter">Area Converter</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="lingkaran">Lingkaran</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lebar">Lebar</string>
+    <string name="panjang">Panjang</string>
+    <string name="hasil">Hasil</string>
+    <string name="convert">Convert</string>
+    <string name="jari_jari">jari-jari</string>
+</resources>
